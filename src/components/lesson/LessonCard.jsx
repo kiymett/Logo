@@ -3,6 +3,7 @@ import LessonStyle from "./lesson.module.css"
 
 const LessonCard = ({name, hour, image}) => {
   return (
+ 
     <div className={LessonStyle.container}>
         <div className={LessonStyle.image}>
             <img src={image} alt="log"  width="100px"/>
@@ -17,7 +18,10 @@ const LessonCard = ({name, hour, image}) => {
             <p className={LessonStyle.value}> {hour}</p>
             </div> 
         </div>  
+          
     </div>
+   
+   
   )
 }
 

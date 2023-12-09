@@ -5,7 +5,7 @@ import {data} from "./helper/data"
 
 function App() {
   return (
-    < >
+    <>
        <Header />
        <Lesson data={data}/>
     </>
