@@ -7,25 +7,35 @@
 body{
     background-image: linear-gradient(to right, black, violet , blue);
 }
-.whole {
+
+.app {
+    display: grid;
+    place-content: center;
+    margin: 1rem auto 1rem;
+    max-width: 55%;
+    
+}
+/* .whole {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+} */
+.container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    
-  }
+    gap: 12px;
+}
 
-
-.container {
-    align-items: center;
-    margin: 20px auto;
-    padding: 25px;
-    max-width: 250px;
-    min-width: 400px;
-    display:flex;
-    justify-content: row;
-    align-items: center;
-    gap:1rem;
+.card {
+    background-color: rgba(252, 251, 251, 0);
+    border-radius: 10px;
+    padding: 10rem;
+    margin: 1rem;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.90) ;
+    color: aliceblue;
+    height: 500px;
 }
 
 .container-paragraf{
@@ -37,5 +47,22 @@ body{
 
 .title{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+.display {
+    display: none;
+}
+
+button {
+    border-radius: 12px;
+    background-color: pink;
+    color: blueviolet;
+    border-color: blueviolet;
+    padding: 14px 28px;
+    cursor: pointer;
+}
+
+.btn {
+   
 }
